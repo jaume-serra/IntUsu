@@ -1,12 +1,12 @@
-#logo{
+#logo {
   float: left;
 }
 
-header>a>img{
+header > a > img {
   float: right;
 }
 
-header>h1{
+header > h1 {
   text-align: center;
   color: rgb(201, 183, 166);
 }
@@ -15,66 +15,73 @@ header>h1{
   font-family: "Lobster", serif;
 }
 
-header{
+header {
   background-image: url(img1.jpg);
-  background-repeat:repeat;
+  background-repeat: repeat;
   border-bottom: 2px solid #a64924;
 }
 
-body{
+body {
   background-image: url(img2.jpg);
-  background-repeat:repeat;
+  background-repeat: repeat;
 }
 
-nav{
+nav {
   border-bottom: 2px solid #a64924;
 }
 
-nav>a:hover{
+nav > a:hover {
   background-image: url(img1.jpg);
-  background-repeat:repeat;
+  background-repeat: repeat;
   color: rgb(201, 183, 166);
 }
 
-nav>a{
+nav > a {
   text-decoration-line: none;
 }
 
-div>article{
+div > article {
   padding-bottom: 16px !important;
 }
+footer > p {
+  text-align: center;
+}
 
-.n_plat{
+.all {
+  display: table;
+  margin: 0 auto;
+}
+.n_plat {
   border: 2px solid #a64924;
   padding: 0px !important;
   width: 440px;
 }
 
-div>h2{
+div > h2 {
   color: rgb(119, 55, 37);
   font-family: "Bree", "Palatino", "serif";
 }
 
-.break{
+.break {
   background: url(img4.jpg) left top repeat-x;
   padding-top: 33px;
 }
 
-.menu-item{
-  background-color: #DFD4CA;
+.menu-item {
+  background-color: #dfd4ca;
   font-family: "Bree", "Palatino", "serif";
   font-size: 1.2rem;
 }
 
-.menu-item:not(:last-child){
+.menu-item:not(:last-child) {
   border-bottom: 2px dotted #a64924;
 }
 
-.card-title{
+.card-title {
   text-align: center;
   color: #a64924;
   border-bottom: 2px solid #a64924;
-  background-color: #DFD4CA;
+  background-color: #dfd4ca;
   font-size: 2rem;
   margin: 0px;
 }
@@ -91,7 +98,7 @@ div>h2{
 
 .dish-desc {
   clear: left;
-  float:left;
+  float: left;
   color: #a64924;
 }
 
@@ -100,8 +107,8 @@ div>h2{
   float: right;
 }
 
-footer{
+footer {
   background-image: url(img1.jpg);
-  background-repeat:repeat;
+  background-repeat: repeat;
   color: rgb(201, 183, 166);
 }
