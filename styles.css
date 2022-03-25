@@ -56,6 +56,10 @@ footer > p {
   padding: 0px !important;
   width: 440px;
 }
+
+:hover.changebg {
+  background: #dec0b4;
+}
 :hover.hover {
   cursor: pointer;
   opacity: 50%;
@@ -121,6 +125,18 @@ div > h2 {
 .dish-img {
   clear: right;
   float: right;
+}
+
+.dish-button {
+  clear: both;
+  float: left;
+  border-radius: 50%;
+  border: none;
+}
+
+.dish-button:hover {
+  background-color: #a64924;
+  color: white;
 }
 
 footer {
